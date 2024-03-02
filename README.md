@@ -31,37 +31,23 @@ jobs:
           template: classic
           base: header, activity, community, repositories, metadata
           config_timezone: Asia/Shanghai
-          plugin_16personalities: yes
-          plugin_16personalities_scores: yes
-          plugin_16personalities_sections: personality
-          plugin_achievements: yes
-          plugin_achievements_display: detailed
-          plugin_achievements_secrets: yes
-          plugin_achievements_threshold: S
-          plugin_gists: yes
+          plugin_followup: yes
+          plugin_followup_archived: yes
+          plugin_followup_sections: repositories
           plugin_isocalendar: yes
           plugin_isocalendar_duration: half-year
-          plugin_languages: yes
-          plugin_languages_analysis_timeout: 15
-          plugin_languages_analysis_timeout_repositories: 7.5
-          plugin_languages_categories: markup, programming
-          plugin_languages_colors: github
-          plugin_languages_limit: 8
-          plugin_languages_other: yes
-          plugin_languages_recent_categories: markup, programming
-          plugin_languages_recent_days: 14
-          plugin_languages_recent_load: 300
-          plugin_languages_sections: most-used
-          plugin_languages_threshold: 0%
-          plugin_lines: yes
-          plugin_lines_history_limit: 1
-          plugin_lines_repositories_limit: 4
-          plugin_lines_sections: base
           plugin_pagespeed: yes
-          plugin_pagespeed_url: .user.website
+          plugin_pagespeed_url: 3Wsky.github.io
           plugin_people: yes
           plugin_people_limit: 24
           plugin_people_size: 28
+          plugin_people_types: followers, following
+          plugin_reactions: yes
+          plugin_reactions_display: absolute
+          plugin_reactions_limit: 200
+          plugin_reactions_limit_discussions: 100
+          plugin_reactions_limit_discussions_comments: 100
+          plugin_reactions_limit_issues: 100
           plugin_people_types: followers, following
           plugin_stargazers: yes
           plugin_stargazers_charts: yes
